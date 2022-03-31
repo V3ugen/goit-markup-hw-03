@@ -66,26 +66,26 @@ a.logo {
     color: var(--white-color);
 }
 /* КОНТАКТЫ */
-.contacts:hover,
-.contacts:focus {
+.contacts a:hover,
+.contacts a:focus {
     color: var(--hower-color);
 }
-.contacts {
+.contacts a {
     font-weight: 500;
     line-height: 1.14;
     color: var(--main-color);
 }
-.link.footer {
+.contacts.footer {
     font-style: normal;
     color: rgba(255, 255, 255, 0.6);
 }
-.header {
+.page-header {
     text-decoration: none;
 }
-/* .navigation {
-} */
-/* .navigation-links {
-} */
+/* .site-nav {
+}
+/* .navigation-links { 
+}  */
 .hero {
     color: var(--white-color);
     background-color: var(--bg-color);
