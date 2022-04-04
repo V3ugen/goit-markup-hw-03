@@ -24,7 +24,6 @@ body {
     letter-spacing: 0.03em;
     background-color: var(--primary-bg-color);
 }
-
 a {
     text-decoration: none;
 }
@@ -52,6 +51,9 @@ a.logo {
     background-color: var(--bg-color);
 }
 /* ССЫЛКИ */
+.item{
+    display: inline-block;
+}
 .link:hover,
 .link:focus {
     color: var(--hower-color);
@@ -77,18 +79,31 @@ a.logo {
     line-height: 1.14;
     color: var(--main-color);
 }
+.contacts{
+    display: inline-block;
+}
+/* КОНТАНТЫ ФУТЕР */
 .contacts.footer {
     font-style: normal;
     color: rgba(255, 255, 255, 0.6);
 }
+.logos{
+    margin-top: 25px;
+    margin-left: 215px;
+    display: inline-block
+    
+    
+}
 .page-header {
     text-decoration: none;
 }
-/*.site-nav {
-
+.site-nav{
+    display: inline-block;
 }
-.navigation-links { 
-}   */
+.navigation{
+    display: inline-block;
+}
+/* ГЕРОЙ */
 .hero {
     color: var(--primary-bg-color);
     background-color: var(--bg-color);
@@ -156,6 +171,7 @@ a.logo {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+/* НАШИ ПРЕИМУЩЕСТВА */
 .benefits-title {
     font-weight: 700;
     line-height: 1.14;
@@ -175,7 +191,6 @@ a.logo {
     text-align: center;
     color: var(--secondary-color);
 }
-
 .team-title {
     font-weight: 500;
     font-size: 16px;
@@ -183,7 +198,6 @@ a.logo {
     color: var(--secondary-color);
     text-align: center;
 }
-
 .team-text {
     font-size: 16px;
     line-height: 1.18;
@@ -191,8 +205,6 @@ a.logo {
     text-align: center;
 }
 /* ПРОЭКТЫ */
-/* .projects {
-} */
 .projects-title {
     font-weight: 700;
     font-size: 18px;
