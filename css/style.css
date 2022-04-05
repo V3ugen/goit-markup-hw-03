@@ -13,8 +13,8 @@ h3,
 h4,
 ul,
 p {
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     list-style: none;
 }
 body {
@@ -34,6 +34,10 @@ a.logo {
     font-size: 26px;
     line-height: 1.19;
     font-weight: 700;
+
+    margin-top: 25px;
+    margin-left: 215px;
+    display: inline-block
 }
 .logo-color {
     color: var(--hower-color);
@@ -53,6 +57,8 @@ a.logo {
 /* ССЫЛКИ */
 .item{
     display: inline-block;
+    margin-top: 32px;
+    margin-left: 93px;
 }
 .link:hover,
 .link:focus {
@@ -80,6 +86,9 @@ a.logo {
     color: var(--main-color);
 }
 .contacts{
+    display: inline-block;
+}
+.contacts-item{
     display: inline-block;
 }
 /* КОНТАНТЫ ФУТЕР */
@@ -159,6 +168,7 @@ a.logo {
 .benefits.hide {
     display: none;
 }
+
 .hide {
     position: absolute;
     width: 1px;
@@ -219,4 +229,9 @@ a.logo {
     line-height: 1.87;
 
     color: var(--primary-text-color);
+}
+.conteiner{
+max-width: 1200px;
+margin-left: auto;
+margin-right: auto;
 }
