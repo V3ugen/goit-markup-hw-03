@@ -27,8 +27,10 @@ body {
     background-color: var(--primary-bg-color);
 }
 /* Header */
-/* Логотип */
+
 .page-header{
+    margin-top: 24px;
+    margin-bottom: 25px;
 }
 .conteiner {
     max-width: 1200px;
@@ -38,7 +40,8 @@ body {
     padding-right: 15px;
 }
 .navigation{
-} 
+}
+ /* Логотип */
 a.logo {
     font-family: 'Raleway', sans-serif;
     color: var(--logo-color);
@@ -83,6 +86,9 @@ a.logo {
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
+
+    padding-top: 200px;
+    padding-bottom: 280px;
 }
 .hero-title {
     font-weight: 900;
@@ -113,6 +119,7 @@ a.logo {
     min-width: 200px;
 }
 .benefits{
+    margin-top: 94px;
 }
 /* НЕВИДИМЫЙ ТЕКСТ */
 .hide {
@@ -138,14 +145,26 @@ a.logo {
 .benefits-text {
     font-weight: 400;
     line-height: 1.71;
+    margin-top: 10px;
 }
 /* НАША КОМАНДА */
+.team-pic{
+    margin-top: 50px;
+}
 .team {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     color: var(--secondary-color);
+
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+.our-team{
+    margin-top: 94px;
+    background-color: var(--button-color);
+    padding-bottom: 94px;
 }
 .team-title {
     font-weight: 500;
@@ -159,10 +178,14 @@ a.logo {
     line-height: 1.18;
 
     text-align: center;
+
+
 }
 /* АДДРЕС ФУТЕР */
 .footer-address {
     background-color: var(--bg-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 /* ЛОГОТИП ФУТЕР */
 .logo-color-footer {
@@ -173,6 +196,12 @@ a.logo {
     font-weight: 700;
 }
 /* ССЫЛКА НА КАРТЫ В ФУТЕРЕ */
+.address-address{
+    margin-top: 20px;
+}
+.address-item {
+    margin-top: 9px;
+}
 .link.address {
     font-style: normal;
     text-decoration: none;
