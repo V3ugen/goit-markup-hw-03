@@ -12,10 +12,12 @@ h2,
 h3,
 h4,
 ul,
-p {
+p,
+a {
     margin: 0;
     padding: 0; 
     list-style: none;
+    text-decoration: none;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -24,10 +26,19 @@ body {
     letter-spacing: 0.03em;
     background-color: var(--primary-bg-color);
 }
-a {
-    text-decoration: none;
-}
+/* Header */
 /* Логотип */
+.page-header{
+}
+.conteiner {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navigation{
+} 
 a.logo {
     font-family: 'Raleway', sans-serif;
     color: var(--logo-color);
@@ -38,20 +49,11 @@ a.logo {
 .logo-color {
     color: var(--hower-color);
 }
-/* ЛОГОТИП ФУТЕР */
-.logo-color-footer {
-    color: var(--primary-bg-color);
-    font-family: 'Raleway', sans-serif;
-    font-size: 26px;
-    line-height: 1.19;
-    font-weight: 700;
+.site-nav{
 }
-/* АДДРЕС ФУТЕР */
-.footer-address {
-    background-color: var(--bg-color);
+.item{
 }
 /* ССЫЛКИ */
-
 .link:hover,
 .link:focus {
     color: var(--hower-color);
@@ -60,14 +62,8 @@ a.logo {
     color: var(--secondary-color);
     font-weight: 500;
     line-height: 1.14;
-    padding: 20px;
 }
-/* ССЫЛКА НА КАРТЫ В ФУТЕРЕ */
-.link.address {
-    font-style: normal;
-    text-decoration: none;
-    color: var(--primary-bg-color);
-}
+
 /* КОНТАКТЫ */
 .contacts a:hover,
 .contacts a:focus {
@@ -78,16 +74,6 @@ a.logo {
     line-height: 1.14;
     color: var(--main-color);
 }
-
-/* КОНТАНТЫ ФУТЕР */
-.contacts.footer {
-    font-style: normal;
-    color: rgba(255, 255, 255, 0.6);
-}
-.page-header {
-    text-decoration: none;
-}
-
 /* ГЕРОЙ */
 .hero {
     color: var(--primary-bg-color);
@@ -102,43 +88,31 @@ a.logo {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
     color: var(--primary-bg-color);
+    margin-bottom: 30px;
 }
-/* КНОПКИ */
+/* Главная кнопка */
 .button.main {
     background-color: var(--hower-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: 0;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: var(--white-color);
+    color: var(--button-color);
     cursor: pointer;
+
+    padding: 10px 32px;
+    min-width: 200px;
 }
-.button:hover,
-.button:focus {
-    background: var(--hower-color);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-        0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    color: var(--white-color);
-}
-.button {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    background: var(--button-color);
-    border-radius: 4px;
-    text-align: center;
-    cursor: pointer;
+.benefits{
 }
 /* НЕВИДИМЫЙ ТЕКСТ */
 .hide {
@@ -186,7 +160,57 @@ a.logo {
 
     text-align: center;
 }
+/* АДДРЕС ФУТЕР */
+.footer-address {
+    background-color: var(--bg-color);
+}
+/* ЛОГОТИП ФУТЕР */
+.logo-color-footer {
+    color: var(--primary-bg-color);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    font-weight: 700;
+}
+/* ССЫЛКА НА КАРТЫ В ФУТЕРЕ */
+.link.address {
+    font-style: normal;
+    text-decoration: none;
+    color: var(--primary-bg-color);
+    margin: 0;
+    padding: 0;
+}
+/* КОНТАНТЫ ФУТЕР */
+.contacts.footer {
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+}
 /* ПРОЭКТЫ */
+.projects{
+}
+/* Кнопки проэктов */
+.button:hover,
+.button:focus {
+    background: var(--hower-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+
+    color: var(--button-color);
+}
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 6px 22px;
+
+    background: var(--button-color);
+}
+.text-card{
+}
 .projects-title {
     font-weight: 700;
     font-size: 18px;
@@ -201,11 +225,4 @@ a.logo {
     line-height: 1.87;
 
     color: var(--primary-text-color);
-}
-.conteiner{
-max-width: 1200px;
-margin-left: auto;
-margin-right: auto;
-padding-left: 15px;
-padding-right: 15px;
 }
