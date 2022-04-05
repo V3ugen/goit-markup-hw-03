@@ -13,8 +13,8 @@ h3,
 h4,
 ul,
 p {
-    /* margin: 0;
-    padding: 0; */
+    margin: 0;
+    padding: 0; 
     list-style: none;
 }
 body {
@@ -33,11 +33,7 @@ a.logo {
     color: var(--logo-color);
     font-size: 26px;
     line-height: 1.19;
-    font-weight: 700;
-
-    margin-top: 25px;
-    margin-left: 215px;
-    display: inline-block
+    font-weight: 700
 }
 .logo-color {
     color: var(--hower-color);
@@ -55,11 +51,7 @@ a.logo {
     background-color: var(--bg-color);
 }
 /* ССЫЛКИ */
-.item{
-    display: inline-block;
-    margin-top: 32px;
-    margin-left: 93px;
-}
+
 .link:hover,
 .link:focus {
     color: var(--hower-color);
@@ -68,6 +60,7 @@ a.logo {
     color: var(--secondary-color);
     font-weight: 500;
     line-height: 1.14;
+    padding: 20px;
 }
 /* ССЫЛКА НА КАРТЫ В ФУТЕРЕ */
 .link.address {
@@ -85,33 +78,16 @@ a.logo {
     line-height: 1.14;
     color: var(--main-color);
 }
-.contacts{
-    display: inline-block;
-}
-.contacts-item{
-    display: inline-block;
-}
+
 /* КОНТАНТЫ ФУТЕР */
 .contacts.footer {
     font-style: normal;
     color: rgba(255, 255, 255, 0.6);
 }
-.logos{
-    margin-top: 25px;
-    margin-left: 215px;
-    display: inline-block
-    
-    
-}
 .page-header {
     text-decoration: none;
 }
-.site-nav{
-    display: inline-block;
-}
-.navigation{
-    display: inline-block;
-}
+
 /* ГЕРОЙ */
 .hero {
     color: var(--primary-bg-color);
@@ -165,10 +141,6 @@ a.logo {
     cursor: pointer;
 }
 /* НЕВИДИМЫЙ ТЕКСТ */
-.benefits.hide {
-    display: none;
-}
-
 .hide {
     position: absolute;
     width: 1px;
@@ -234,4 +206,6 @@ a.logo {
 max-width: 1200px;
 margin-left: auto;
 margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;
 }
