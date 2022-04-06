@@ -42,6 +42,10 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .main-nav {
     display: flex;
     align-items: center;
@@ -141,7 +145,6 @@ a.logo {
     min-width: 200px;
 }
 .benefits{
-    margin-top: 94px;
 }
 .benefits-list{
     display: flex;
@@ -177,7 +180,6 @@ a.logo {
 }
 /* НАША КОМАНДА */
 .team-pic-list{
-    margin-top: 50px;
     display: flex;
 }
 .team-pic-list .team-pic-item + .team-pic-item{
@@ -191,13 +193,9 @@ margin-left: 30px;
 
     color: var(--secondary-color);
 
-    padding-top: 94px;
     padding-bottom: 50px;
 }
 .our-team{
-    margin-top: 94px;
-    padding-bottom: 94px;
-
     background-color: var(--button-color);
 }
 .team-list{
@@ -272,7 +270,6 @@ margin-top: 10px;
 }
 .our-projects{
     margin-bottom: 34px;
-    margin-top: 94px;
     display: flex;
     justify-content: center
 }
@@ -304,8 +301,6 @@ margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
     flex-basis: calc(100%/3);
-    
-    margin-bottom: 94px;
 
     margin-top: -30px;
     margin-left: -30px;
