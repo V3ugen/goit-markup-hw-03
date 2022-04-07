@@ -218,10 +218,7 @@ margin-left: 30px;
 }
 .team-list{
     display: flex;
-    
 }
-
-
 .team-item-text{
     box-shadow: 0px 1px 3px rgb(0 0 0 / 12%),
     0px 1px 1px rgb(0 0 0 / 14%),
@@ -279,7 +276,7 @@ margin-top: 10px;
     padding: 0;
 }
 /* КОНТАНТЫ ФУТЕР */
-.contacts.footer {
+.contacts-footer {
     font-style: normal;
     color: rgba(255, 255, 255, 0.6);
 }
